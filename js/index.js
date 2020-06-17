@@ -1,3 +1,6 @@
+/**
+ * @author Aditya Kumar Sahu <sahuaditya083@gmail.com>
+ */
 var DOC = document;
 
 var STATE = {
