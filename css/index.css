@@ -1,0 +1,82 @@
+
+
+    html{
+        background: rgb(51, 69, 82);
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        
+        
+        font-family: 'Courier New', Courier, monospace;
+        color: #fff;
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 0;
+        
+    }
+    
+    header{
+        text-align: center;
+        height: 20vh;
+    }
+    h1{
+        text-align: center;
+        color: #fff;
+        font-size: 300%;
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    
+    .grid-container{
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows:  100px 100px 100px;
+        gap: 1.4% 1%;
+        height: 400px;
+        align-items: center;
+        font-size: 40px;
+        color: #fff;
+        font-weight: 600;
+        justify-content: center;
+        align-content: center;
+        pointer-events: none;
+    }
+
+    .grid-item{
+        line-height: 100px;
+        background-color: rgba(151, 168, 185, .2);
+    }
+    .grid-item:hover{
+        background: #eee;
+        color: #000;
+    }
+
+    .grid-container > div{
+        width: 100px;
+        height: 100px;
+    }
+
+    #playerTurn{
+        display: none;
+    }
+
+    #start{
+        padding: 5px;
+        font-size: 15px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    #reset{
+        display: none;
+        margin: 0 auto;
+        padding: 5px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    
